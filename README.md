@@ -1,1 +1,6 @@
-# MOSH
+Self-healing is becoming an important functionality of smart Cyber-Physical Systems (CPSs). With such functionality, a Self-Healing CPS (SH-CPS) has the ability to recover from faults and adapt its behavior accordingly. Given that uncertainty is inherent in CPSs since such systems operate in highly unpredictable physical environment, self-healing behaviors of an SH-CPS must deal with uncertainty gracefully. To check the correctness of self-healing behaviors of SH-CPSs in the presence of uncertainty, a cost-effective testing method is required. 
+
+To fulfill this requirement, we have developed MOSH, an eclipse plugin. It uses model execution and reinforcement learning to efficiently test SH-CPSs. In MOSH, the expected behaviors of the SH-CPS under test are specified as executable UML state machines. Via an extended version of Moka (a Papyrus based UML model execution plugin) MOSH can execute the models together with the system under test. By checking the system’s actual behaviors against the expected ones, MOSH manages to find faults in the SH-CPS. 
+
+
+On the other hand, MOSH uses a reinforcement learning based algorithm to learn the likelihood that a fault can be detected, i.e., the system under test is going to fail, after invoking a given operation. The likelihood is defined as fragility, and the highest discounted fragility after firing a transition is defined as the T-value of the transition. Directed by the T-value, MOSH manages to find the optimal operation invocations to effectively detect faults. 
