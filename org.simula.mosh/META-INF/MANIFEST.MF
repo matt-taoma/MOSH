@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.uml2.uml;bundle-version="4.0.1",
+ org.eclipse.papyrus.moka,
+ org.eclipse.papyrus.moka.fuml,
+ org.eclipse.debug.core;bundle-version="3.8.0",
+ org.eclipse.papyrus.moka.ui,
+ org.eclipse.papyrus.infra.core,
+ org.eclipse.papyrus.infra.core.log,
+ org.eclipse.papyrus.moka.composites,
+ org.eclipse.papyrus.moka.fuml.standardlibrary,
+ org.eclipse.ui.console,
+ org.apache.commons.lang,
+ org.eclipse.papyrus.uml.extensionpoints,
+ org.eclipse.papyrus.moka.async.fuml,
+ org.eclipse.papyrus.moka.fuml.statemachines,
+ org.simula.constraint;bundle-version="1.2.0"
+Export-Package: org.simula.mosh,
+ org.simula.mosh.model.loci,
+ org.simula.mosh.test,
+ org.simula.mosh.test.utils
+Bundle-Vendor: Eclipse Modeling Project
+Bundle-ActivationPolicy: lazy
+Bundle-ManifestVersion: 2
+Bundle-Name: Model execution framework for testing
+Bundle-SymbolicName: org.simula.mosh;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Activator: org.simula.mosh.Activator
+Bundle-ClassPath: .
