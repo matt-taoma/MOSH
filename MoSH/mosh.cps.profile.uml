@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_OisZgJq1Eea4n4UVW8OcTA" name="cps" metaclassReference="_xIRtcJq1Eea4n4UVW8OcTA">
+  <eAnnotations xmi:id="_J-8bYJ7wEeaET9VItDj_bw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="_J-8bYZ7wEeaET9VItDj_bw" name="cps" nsURI="http:///schemas/cps/_J-5_IJ7wEeaET9VItDj_bw/0" nsPrefix="cps">
+      <eAnnotations xmi:id="_J-8bYp7wEeaET9VItDj_bw" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="mosh.uncertainty.profile.uml#_cx9KAJq0Eea4n4UVW8OcTA"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_J--3o57wEeaET9VItDj_bw" source="PapyrusVersion">
+        <details xmi:id="_J--3pJ7wEeaET9VItDj_bw" key="Version" value="0.0.1"/>
+        <details xmi:id="_J--3pZ7wEeaET9VItDj_bw" key="Comment" value=""/>
+        <details xmi:id="_J--3pp7wEeaET9VItDj_bw" key="Copyright" value=""/>
+        <details xmi:id="_J--3p57wEeaET9VItDj_bw" key="Date" value="2016-10-30"/>
+        <details xmi:id="_J--3qJ7wEeaET9VItDj_bw" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_J-8bY57wEeaET9VItDj_bw" name="Network">
+        <eAnnotations xmi:id="_J-8bZJ7wEeaET9VItDj_bw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_7msNEJq1Eea4n4UVW8OcTA"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_J-8bZZ7wEeaET9VItDj_bw" name="unertainElement" ordered="false" upperBound="-1">
+          <eType xmi:type="ecore:EClass" href="mosh.uncertainty.profile.uml#_cx9xqZq0Eea4n4UVW8OcTA"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_J-8bZ57wEeaET9VItDj_bw" name="base_BehavioredClassifier" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_J-8baZ7wEeaET9VItDj_bw" name="PhysicalUnit">
+        <eAnnotations xmi:id="_J-8bap7wEeaET9VItDj_bw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_8B8lsJq1Eea4n4UVW8OcTA"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_J-8ba57wEeaET9VItDj_bw" name="goal" ordered="false" upperBound="-1">
+          <eAnnotations xmi:id="_J-8bbJ7wEeaET9VItDj_bw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_J-8bbZ7wEeaET9VItDj_bw" key="originalName" value="goal "/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_J-8bb57wEeaET9VItDj_bw" name="unertainElement" ordered="false" upperBound="-1">
+          <eType xmi:type="ecore:EClass" href="mosh.uncertainty.profile.uml#_cx9xqZq0Eea4n4UVW8OcTA"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_J-8bcZ7wEeaET9VItDj_bw" name="base_BehavioredClassifier" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_J-8bc57wEeaET9VItDj_bw" name="Sensor">
+        <eAnnotations xmi:id="_J-8bdJ7wEeaET9VItDj_bw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_8g2IMJq1Eea4n4UVW8OcTA"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_J-8bdZ7wEeaET9VItDj_bw" name="unertainElement" ordered="false" upperBound="-1">
+          <eType xmi:type="ecore:EClass" href="mosh.uncertainty.profile.uml#_cx9xqZq0Eea4n4UVW8OcTA"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_J-8bd57wEeaET9VItDj_bw" name="base_BehavioredClassifier" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_J-8beZ7wEeaET9VItDj_bw" name="Actuator">
+        <eAnnotations xmi:id="_J-8bep7wEeaET9VItDj_bw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_8w1E8Jq1Eea4n4UVW8OcTA"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_J-8be57wEeaET9VItDj_bw" name="unertainElement" ordered="false" upperBound="-1">
+          <eType xmi:type="ecore:EClass" href="mosh.uncertainty.profile.uml#_cx9xqZq0Eea4n4UVW8OcTA"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_J-8bfZ7wEeaET9VItDj_bw" name="base_BehavioredClassifier" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_J-8bf57wEeaET9VItDj_bw" name="Controller">
+        <eAnnotations xmi:id="_J-8bgJ7wEeaET9VItDj_bw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_9BCEIJq1Eea4n4UVW8OcTA"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_J-8bgZ7wEeaET9VItDj_bw" name="goal" ordered="false" upperBound="-1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_J-8bg57wEeaET9VItDj_bw" name="unertainElement" ordered="false" upperBound="-1">
+          <eType xmi:type="ecore:EClass" href="mosh.uncertainty.profile.uml#_cx9xqZq0Eea4n4UVW8OcTA"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_J-8bhZ7wEeaET9VItDj_bw" name="base_BehavioredClassifier" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_J-8bh57wEeaET9VItDj_bw" name="PhysicalProcess">
+        <eAnnotations xmi:id="_J-8biJ7wEeaET9VItDj_bw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_9OqQcJq1Eea4n4UVW8OcTA"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_J-8biZ7wEeaET9VItDj_bw" name="unertainElement" ordered="false" upperBound="-1">
+          <eType xmi:type="ecore:EClass" href="mosh.uncertainty.profile.uml#_cx9xqZq0Eea4n4UVW8OcTA"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_J-8bi57wEeaET9VItDj_bw" name="base_BehavioredClassifier" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+  </eAnnotations>
+  <elementImport xmi:id="_xIRtcJq1Eea4n4UVW8OcTA" alias="BehavioredClassifier">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#BehavioredClassifier"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_7msNEJq1Eea4n4UVW8OcTA" name="Network">
+    <ownedAttribute xmi:id="_Be2TQJq2Eea4n4UVW8OcTA" name="unertainElement">
+      <type xmi:type="uml:Stereotype" href="mosh.uncertainty.profile.uml#_UGmiQIv0Eeac2oFPft6VOA"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VpRlMJq2Eea4n4UVW8OcTA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VpSzUJq2Eea4n4UVW8OcTA" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_9_yV8Zq2Eea4n4UVW8OcTA" name="base_BehavioredClassifier" association="_9_urkJq2Eea4n4UVW8OcTA">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#BehavioredClassifier"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_8B8lsJq1Eea4n4UVW8OcTA" name="PhysicalUnit">
+    <ownedAttribute xmi:id="_B0NfQJq2Eea4n4UVW8OcTA" name="goal ">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Constraint"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_c2uqYJq2Eea4n4UVW8OcTA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_c2v4gJq2Eea4n4UVW8OcTA" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_C2nXcJq2Eea4n4UVW8OcTA" name="unertainElement">
+      <type xmi:type="uml:Stereotype" href="mosh.uncertainty.profile.uml#_UGmiQIv0Eeac2oFPft6VOA"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7P62YJq2Eea4n4UVW8OcTA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7P7dcJq2Eea4n4UVW8OcTA" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_-Tk0opq2Eea4n4UVW8OcTA" name="base_BehavioredClassifier" association="_-Tk0oJq2Eea4n4UVW8OcTA">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#BehavioredClassifier"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_8g2IMJq1Eea4n4UVW8OcTA" name="Sensor">
+    <ownedAttribute xmi:id="_CCQiUJq2Eea4n4UVW8OcTA" name="unertainElement">
+      <type xmi:type="uml:Stereotype" href="mosh.uncertainty.profile.uml#_UGmiQIv0Eeac2oFPft6VOA"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7sCKoJq2Eea4n4UVW8OcTA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7sCKoZq2Eea4n4UVW8OcTA" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_-m4yMpq2Eea4n4UVW8OcTA" name="base_BehavioredClassifier" association="_-m4yMJq2Eea4n4UVW8OcTA">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#BehavioredClassifier"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_8w1E8Jq1Eea4n4UVW8OcTA" name="Actuator">
+    <ownedAttribute xmi:id="_CO6eQJq2Eea4n4UVW8OcTA" name="unertainElement">
+      <type xmi:type="uml:Stereotype" href="mosh.uncertainty.profile.uml#_UGmiQIv0Eeac2oFPft6VOA"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8A19AJq2Eea4n4UVW8OcTA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8A19AZq2Eea4n4UVW8OcTA" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_-8B7wpq2Eea4n4UVW8OcTA" name="base_BehavioredClassifier" association="_-8B7wJq2Eea4n4UVW8OcTA">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#BehavioredClassifier"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_9BCEIJq1Eea4n4UVW8OcTA" name="Controller">
+    <ownedAttribute xmi:id="_Cdg68Jq2Eea4n4UVW8OcTA" name="goal">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Constraint"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8YIboJq2Eea4n4UVW8OcTA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8YIboZq2Eea4n4UVW8OcTA" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_DINdwJq2Eea4n4UVW8OcTA" name="unertainElement">
+      <type xmi:type="uml:Stereotype" href="mosh.uncertainty.profile.uml#_UGmiQIv0Eeac2oFPft6VOA"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8gwzMJq2Eea4n4UVW8OcTA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8gxaQJq2Eea4n4UVW8OcTA" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_ABOpQpq3Eea4n4UVW8OcTA" name="base_BehavioredClassifier" association="_ABOpQJq3Eea4n4UVW8OcTA">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#BehavioredClassifier"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_9OqQcJq1Eea4n4UVW8OcTA" name="PhysicalProcess">
+    <ownedAttribute xmi:id="_CpT7QJq2Eea4n4UVW8OcTA" name="unertainElement">
+      <type xmi:type="uml:Stereotype" href="mosh.uncertainty.profile.uml#_UGmiQIv0Eeac2oFPft6VOA"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9F1PIJq2Eea4n4UVW8OcTA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9F1PIZq2Eea4n4UVW8OcTA" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="__a7eQZq2Eea4n4UVW8OcTA" name="base_BehavioredClassifier" association="__a63MJq2Eea4n4UVW8OcTA">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#BehavioredClassifier"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_9_urkJq2Eea4n4UVW8OcTA" name="E_Network_BehavioredClassifier1" memberEnd="_9_yV8Jq2Eea4n4UVW8OcTA _9_yV8Zq2Eea4n4UVW8OcTA">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_9_yV8Jq2Eea4n4UVW8OcTA" name="extension_Network" type="_7msNEJq1Eea4n4UVW8OcTA" aggregation="composite" association="_9_urkJq2Eea4n4UVW8OcTA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_-Tk0oJq2Eea4n4UVW8OcTA" name="E_PhysicalUnit_BehavioredClassifier1" memberEnd="_-Tk0oZq2Eea4n4UVW8OcTA _-Tk0opq2Eea4n4UVW8OcTA">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_-Tk0oZq2Eea4n4UVW8OcTA" name="extension_PhysicalUnit" type="_8B8lsJq1Eea4n4UVW8OcTA" aggregation="composite" association="_-Tk0oJq2Eea4n4UVW8OcTA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_-m4yMJq2Eea4n4UVW8OcTA" name="E_Sensor_BehavioredClassifier1" memberEnd="_-m4yMZq2Eea4n4UVW8OcTA _-m4yMpq2Eea4n4UVW8OcTA">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_-m4yMZq2Eea4n4UVW8OcTA" name="extension_Sensor" type="_8g2IMJq1Eea4n4UVW8OcTA" aggregation="composite" association="_-m4yMJq2Eea4n4UVW8OcTA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_-8B7wJq2Eea4n4UVW8OcTA" name="E_Actuator_BehavioredClassifier1" memberEnd="_-8B7wZq2Eea4n4UVW8OcTA _-8B7wpq2Eea4n4UVW8OcTA">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_-8B7wZq2Eea4n4UVW8OcTA" name="extension_Actuator" type="_8w1E8Jq1Eea4n4UVW8OcTA" aggregation="composite" association="_-8B7wJq2Eea4n4UVW8OcTA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="__a63MJq2Eea4n4UVW8OcTA" name="E_PhysicalProcess_BehavioredClassifier1" memberEnd="__a7eQJq2Eea4n4UVW8OcTA __a7eQZq2Eea4n4UVW8OcTA">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="__a7eQJq2Eea4n4UVW8OcTA" name="extension_PhysicalProcess" type="_9OqQcJq1Eea4n4UVW8OcTA" aggregation="composite" association="__a63MJq2Eea4n4UVW8OcTA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_ABOpQJq3Eea4n4UVW8OcTA" name="E_Controller_BehavioredClassifier1" memberEnd="_ABOpQZq3Eea4n4UVW8OcTA _ABOpQpq3Eea4n4UVW8OcTA">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_ABOpQZq3Eea4n4UVW8OcTA" name="extension_Controller" type="_9BCEIJq1Eea4n4UVW8OcTA" aggregation="composite" association="_ABOpQJq3Eea4n4UVW8OcTA"/>
+  </packagedElement>
+  <profileApplication xmi:id="_PHhIYJq2Eea4n4UVW8OcTA">
+    <eAnnotations xmi:id="_PHhvcZq2Eea4n4UVW8OcTA" source="PapyrusVersion">
+      <details xmi:id="_PHhvcpq2Eea4n4UVW8OcTA" key="Version" value="0.0.2"/>
+      <details xmi:id="_PHhvc5q2Eea4n4UVW8OcTA" key="Comment" value=""/>
+      <details xmi:id="_PHhvdJq2Eea4n4UVW8OcTA" key="Copyright" value=""/>
+      <details xmi:id="_PHhvdZq2Eea4n4UVW8OcTA" key="Date" value="2016-10-25"/>
+      <details xmi:id="_PHhvdpq2Eea4n4UVW8OcTA" key="Author" value=""/>
+    </eAnnotations>
+    <eAnnotations xmi:id="_PHhvcJq2Eea4n4UVW8OcTA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="mosh.uncertainty.profile.uml#_cx9KAJq0Eea4n4UVW8OcTA"/>
+    </eAnnotations>
+    <appliedProfile href="mosh.uncertainty.profile.uml#_QcvFMH7mEeaFnr3Kjtqqcg"/>
+  </profileApplication>
+</uml:Profile>
